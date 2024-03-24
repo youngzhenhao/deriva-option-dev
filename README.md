@@ -1,5 +1,7 @@
 # experiments-in-derivatives
 
+https://github.com/TobiasBK/experiments-in-derivatives
+
 A work in progress...
 
 Plan to work out ideas around:
