@@ -15,3 +15,9 @@ remappings = [
     'ds-test/=lib/ds-test/src/',
     'forge-std/=lib/forge-std/src/',
 ]
+
+[rpc_endpoints]
+sepolia = "${env:SEPOLIA_RPC_URL}"
+
+[etherscan]
+sepolia = { key = "${env:ETHERSCAN_API_KEY}" }

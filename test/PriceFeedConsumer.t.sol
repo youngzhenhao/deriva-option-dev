@@ -4,7 +4,7 @@ pragma solidity >=0.8.7 <0.9.0;
 import "ds-test/test.sol";
 import "forge-std/Vm.sol";
 
-import "./mocks/MockV3Aggregator.sol";
+import "../src/mocks/MockV3Aggregator.sol";
 import "../src/oracle/PriceFeedConsumer.sol";
 
 contract PriceFeedConsumerTest is DSTest {

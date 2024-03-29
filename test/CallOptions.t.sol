@@ -5,8 +5,8 @@ import "ds-test/test.sol";
 import "forge-std/StdStorage.sol";
 import "forge-std/console.sol";
 
-import "./mocks/MockV3Aggregator.sol";
-import "./mocks/MockERC20.sol";
+import "../src/mocks/MockV3Aggregator.sol";
+import "../src/mocks/MockERC20.sol";
 
 import "../src/oracle/PriceFeedConsumer.sol";
 import "../src/CallOptions.sol";
